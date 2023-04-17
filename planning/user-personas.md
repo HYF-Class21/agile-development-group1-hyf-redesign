@@ -35,6 +35,8 @@
   experience and success stories on it so he decides that he wants to join the
   HYF team.
 
+---
+
 ## Potential Partner
 
 - **Bio**: `New Digital` is a tech company that has been in the market for many
