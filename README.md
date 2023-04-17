@@ -1,10 +1,13 @@
-# Name of project
+# HYF REDESIGN
 
-> A longer description
+> Hack Your Future is an IT school which has been founded in 2015 in Amsterdam.
+> They aim to empower refugees and migrants by teaching them the necessary
+> skills for a career in software development. We will try to redesign their
+> website in this project.
 
 ## Table of contents
 
-- [Name of project](#name-of-project)
+- [HYF Redesign](#name-of-project)
   - [Table of contents](#table-of-contents)
   - [General info](#general-info)
   - [Screenshots](#screenshots)
@@ -22,43 +25,57 @@
 
 ## General info
 
-> A short description
+> HYF empowers the refugees and newcomers to be a frontend web developer in the
+> IT field.
 
 ## Screenshots
 
-![Example screenshot](./planning/screenshot.jpg)
+![Example screenshot](./planning/images/screenshot-2.png)
+
+![Example screenshot](./planning/images/screenshot-1.png)
+
+![Example screenshot](./planning/images/screenshot-3.png)
 
 ## Technologies
 
 - Node 14.16.0
 - VSC code
-- JavaScript
-- ...
-- ...
+- HTML
+- CSS
+- NPM
+- Markdown
+- Google Chrome
 
 ## Setup
 
-- `npm run start`
+- Fork the project
+  [Template](https://github.com/HackYourFutureBelgium/template-html-css) from
+  [Tamer Almurshidi](https://github.com/talmurshidi)
+- Clone the repository
+  > <https://github.com/HYF-Class21/agile-development-group1-hyf-redesign.git>
+- Run NPM
+  > npm install
+- Create branch
+  > git branch "branchname"
 
 ## Code Examples
 
-```js
-// the hello world program
-console.log("Hello World");
-```
+-
 
 ## Features
 
-List of features ready and Todos for future development
-
--
--
--
-
 To-do list:
 
--
--
+- Navbar & Header
+- Main Section
+  - Info About the Programs
+  - Graduation Statistics
+  - Core Values & Succes Stories
+  - Partners
+  - Support Box & Contact
+- Footer
+
+Ready:
 
 ## Status
 
@@ -66,11 +83,14 @@ Project is: _in progress_
 
 ## Inspiration
 
-Project by freeCodeCamp.org
+Website of [HYFBelgium](https://hackyourfuture.be/)
 
 ## Contact
 
-By [Name]
+- [Mervat](https://github.com/Mervatabuamro)
+- [Yun-Hsia](https://github.com/yunhsiaho)
+- [Allan](https://github.com/AllanSaku)
+- [Ali](https://github.com/alisanlii)
 
 ## Instructions for use
 
