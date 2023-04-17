@@ -28,9 +28,9 @@
 - **Bio**: Brad is a programmer whit passion in coding.
 - **Needs/Goals**: He has some free time and wants to invest it in something he
   likes.
-- **Frustrations**: Brad found it very difficult to get into the coding field.
-  All the courses was so expensive for him as a student, now he still finds it
-  difficult to recommend a course for his friends.
+- **Frustrations**: When he started, he found it very difficult to get into the
+  coding field. All the courses was so expensive for him as a student, now he
+  still finds it difficult to recommend a course for his friends.
 - **Scenario 1**: Brad sees HYF website and reads about all the coaches
   experience and success stories on it so he decides that he wants to join the
   HYF team.
@@ -41,9 +41,9 @@
   years now. It has many branches in Europe.
 - **Needs/Goals**: For its social responsibility role in the society, New
   Digital is looking for an initiative that has a good social impact and clear
-  goals to help them and be a partner.
+  goals to help them and be their partner.
 - **Frustrations**: They want to be sure that they choose a good program with
   actual results and benefits in the society.
 - **Scenario 1**: One of the options in their meeting is HYF program. They read
   about the program and all the success stories on the website. They look on how
-  they can be partner and what are the ways to help the program grow.
+  they can be partner and what are the ways to help the program growing.
