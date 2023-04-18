@@ -58,7 +58,7 @@
   and `<p>` to demonstrate each ex-trainee's photo, current job and story.
 
 - CSS The image should be black and white. The name/company is color
-  ` rgb(28, 34, 148)` . The job title is color `#4A50BB` . All text are
+  `rgb(28, 34, 148)` . The job title is color `#4A50BB` . All text are
   centre-aligned.
 
 ## Footer
