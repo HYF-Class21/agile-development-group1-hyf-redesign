@@ -1,55 +1,76 @@
-# Project Name
+# Development strategy
 
-<!-- describe your project -->
+## SET UP
 
----
+- [ ] create `index.html`
+- [ ] link `style.css` file to `index.html`
+- [ ] put all the images in `public` file
 
-## Setup
+## Title
 
-<!-- what code do you need just to open the project? this might include:
-  - boilerplate code (https://brandlitic.com/what-is-boilerplate-code/)
-  - loading program data
-  - rendering the initial user interface
--->
+> As a user I want to see a clear title for the website. There is a good title
+> that user can see in top of the page.
 
----
+- HTML Put "Hack Your Future" text in `<title>` tag of the `<head>` part.
 
-<!-- copy this section once for each must-have user story -->
+## Website logo
 
-## user story
+> As a user I want to see a logo for the website. There is a logo the reflects
+> the website title.
 
-<!-- each issue created from this section will have the `for: user story` label -->
+- HTML Use `<img>` tag to insert HYF logo image.
 
-> "as a ... i can ... so that ..."
+- CSS Style the website logo to the top left of the page using flexbox or grid,
+  to be aligned with the navbar.
 
-<!-- write any extra notes or description -->
+## Navbar
 
-<!-- describe the tasks to build this user story
-  these will have the `type: logic` label, for example
-  not all projects will have all types of tasks
-  and these are not the only possible types, just some suggestions
--->
+> As a user I want to have a navigation bar to go to different pages of the
+> website. There is navigation bar with links to all pages in website.
 
-### Logic: user story
+- HTML Use `<ul>` and `<li>` tag to list out different `<a>` link for the navbar
+  .
 
-- a _logic_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- CSS Style the link text to color `rgb(127, 127, 127)`. When hover through, the
+  link text should turn black and show thick purple bottom line.
 
-### Interface: user story
+## Main info section
 
-- an _interface_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+> As a user I want to have main section explaining what the program is about.
+> There is a section with extra information button that explains what the
+> program is.
 
-### Interaction: user story
+- HTML Use `<section>` tag to divide different part of the information . If
+  needed, add a "discover more" button with `<button>` tag below the text part
+  to link to more complete information.
 
-- an _interaction_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+- CSS "OUR PROGRAM" section text should be left-aligned, "OUR IMPACT" section
+  text should be centre-aligned. The background color of the button should turn
+  gray when hover through.
 
-### Documentation: user story
+## Successful examples/results
 
-- a _documentation_ task -> this will become one issue
-  - [ ] some checkboxes for this task
-  - [ ] these will be copy-pasted into the issue
+> As a user I want to see the impact of this program and its results to see if
+> its successful. There is a section with some examples of program effects on
+> society.
+
+- HTML Use `<div>` to separate different success stories. Add `<img>` ,`<h4>`
+  and `<p>` to demonstrate each ex-trainee's photo, current job and story.
+
+- CSS The image should be black and white. The name/company is color
+  ` rgb(28, 34, 148)` . The job title is color `#4A50BB` . All text are
+  centre-aligned.
+
+## Footer
+
+> As a user I want to see footer with social media links of the program and
+> contact information. There is a footer at end of page with contact information
+> on the program.
+
+- HTML Use `<form>` to create a contact form. Use `<iframe>` to embed a map with
+  HYF address if possible. Add `<svg>` images for the social media links at the
+  bottom of the footer.
+
+- CSS The background of the contact form is `rgb(74, 80, 187)`, text color is
+  white. The footer text is color `rgb(28, 34, 148)` and `rgb(45, 48, 55)`,
+  centre-aligned.
