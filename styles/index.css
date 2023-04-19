@@ -63,3 +63,79 @@
 /* end nav bar * /
 
 /* first main section */
+
+/* setting */
+
+:root {
+  --main-color: rgb(28, 34, 148);
+  --secondary-color: rgb(74, 80, 187);
+}
+
+* {
+  font-family: "Space Mono", monospace;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+/* our-program */
+.our-program {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  font-size: 16px;
+  padding: 3rem 1.5rem;
+}
+
+.our-program-text,
+.our-program-img {
+  padding: 3rem;
+  width: 50%;
+}
+
+.our-program div {
+  /* border: 1px solid blue; */
+  flex-direction: column;
+  display: flex;
+  flex-basis: 50%;
+}
+
+.our-program b {
+  color: var(--secondary-color);
+}
+
+.our-program button {
+  font-family: "Work Sans", sans-serif;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  color: var(--secondary-color);
+  font-weight: 600;
+  padding: 0;
+}
+
+.our-program svg {
+  height: 1em;
+}
+
+.our-program-img::after {
+  content: "";
+  width: 40%;
+  height: 70%;
+  position: absolute;
+  top: -5%;
+  left: 60%;
+  background-color: rgb(248, 249, 255);
+  z-index: -1;
+  margin-top: 1rem;
+}
