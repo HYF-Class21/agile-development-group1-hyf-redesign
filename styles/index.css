@@ -63,3 +63,49 @@
 /* end nav bar * /
 
 /* first main section */
+
+/* setting */
+:root {
+  --main-color: rgb(28, 34, 148);
+  --secondary-color: rgb(74, 80, 187);
+}
+
+* {
+  font-family: "Space Mono", monospace;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+/* our impact */
+.our-impact {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
+  padding: 3rem;
+}
+
+.our-impact-container {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.our-impact-result {
+  background-color: var(--secondary-color);
+  color: white;
+  margin: 1.5rem;
+  padding: 1rem;
+  width: 30%;
+}
+
+.our-impact-result h2 {
+  font-family: "Work Sans", sans-serif;
+}
