@@ -30,11 +30,11 @@
 
 ## Screenshots
 
-![Example screenshot](./planning/images/screenshot-2.png)
+![Example screenshot](/planning/images/Screenshot-2.png)
 
-![Example screenshot](./planning/images/screenshot-1.png)
+![Example screenshot](/planning/images/Screenshot-1.png)
 
-![Example screenshot](./planning/images/screenshot-3.png)
+![Example screenshot](/planning/images/Screenshot-3.png)
 
 ## Technologies
 
