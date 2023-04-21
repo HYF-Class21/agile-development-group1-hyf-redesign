@@ -1,10 +1,5 @@
 @import url("./something.css");
 
-.background {
-  max-width: 100%;
-  max-height: 100%;
-}
-
 /* header */
 .header {
   height: 100%;
@@ -25,6 +20,7 @@
   font-size: 15px;
   height: 80px;
   overflow: auto;
+  overflow: hidden;
 }
 
 .logo {
@@ -64,6 +60,19 @@
 
 /* first main section */
 
+.first-section {
+  background-color: #cccccc;
+  background-image: url(backroundimg/image.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.top-text {
+  font-size: xx-large;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 /* setting */
 
 :root {
@@ -74,6 +83,10 @@
 * {
   font-family: "Space Mono", monospace;
   overflow: hidden;
+}
+
+body {
+  margin: 0%;
 }
 
 h1 {
@@ -87,10 +100,9 @@ h1 {
   text-transform: uppercase;
 }
 
-/* our-program */
 .our-program {
   /* border: 1px solid red; */
-  width: 100%;
+  width: 50%;
   display: flex;
   font-size: 16px;
   padding: 3rem 1.5rem;
@@ -130,8 +142,8 @@ h1 {
 
 .our-program-img::after {
   content: "";
-  width: 40%;
-  height: 70%;
+  width: 30%;
+  height: 50%;
   position: absolute;
   top: -5%;
   left: 60%;
@@ -139,7 +151,6 @@ h1 {
   z-index: -1;
   margin-top: 1rem;
 }
-
 
 /* our impact */
 .our-impact {
