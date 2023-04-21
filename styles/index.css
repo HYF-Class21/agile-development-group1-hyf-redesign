@@ -98,6 +98,7 @@
 body {
   margin: 0%;
   overflow: auto;
+  padding: 0%;
 }
 
 h1 {
@@ -186,4 +187,83 @@ h1 {
 
 .our-impact-result h2 {
   font-family: "Work Sans", sans-serif;
+}
+
+/* contact us form */
+
+.first-container {
+  display: flex;
+}
+
+.form-container {
+  flex: 3;
+  max-width: 700px;
+  height: 600px;
+  background-color: var(--secondary-color);
+  box-sizing: border-box;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(72, 98, 82, 0.6);
+  font-family: "Work Sans", sans-serif;
+}
+
+.form-container p {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.input {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid #e9e9e9;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: 2px solid #e9e9e9;
+  font-size: 12px;
+  border-radius: 5px;
+}
+
+.subject .area {
+  height: 200px;
+}
+
+.bnt {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  cursor: pointer;
+  border: 5px;
+  color: black;
+  background: darkblue;
+}
+
+.input:focus,
+.area:focus {
+  border: 2px solid #000;
+}
+
+.form-img {
+  flex: 1;
+  height: 100%;
+}
+
+.form-img img {
+  height: 100%;
+  width: 100%;
 }
