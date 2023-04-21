@@ -61,16 +61,27 @@
 /* first main section */
 
 .first-section {
-  background-color: #cccccc;
+  background-color: #ccc;
   background-image: url(backroundimg/image.png);
   background-repeat: no-repeat;
-  background-size: auto;
+  height: 100%;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 200px repeat(3, 2fr);
+  justify-content: center;
+  background-size: cover;
+  align-content: center;
 }
 
 .top-text {
-  font-size: xx-large;
+  font-size: 300%;
   text-transform: uppercase;
+  color: lightskyblue;
+  font-family: "Work Sans", sans-serif;
+  grid-column: 1 / -1;
   text-align: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
 /* setting */
@@ -82,11 +93,11 @@
 
 * {
   font-family: "Space Mono", monospace;
-  overflow: hidden;
 }
 
 body {
   margin: 0%;
+  overflow: auto;
 }
 
 h1 {
@@ -102,7 +113,7 @@ h1 {
 
 .our-program {
   /* border: 1px solid red; */
-  width: 50%;
+  width: 60%;
   display: flex;
   font-size: 16px;
   padding: 3rem 1.5rem;
