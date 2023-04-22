@@ -19,6 +19,7 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <!-- Header section-->
     <div class="header">
@@ -114,83 +115,138 @@
           </div>
         </div>
       </section>
-    </main>
-    <!--Core Values-->
-    <section class="corevalues cv">
-      <div class="corevalues-1 corev1">
-        <div class="corevalues-2 corev2">
-          <h3 class="corevaluestitle cvtitle">Our Core Values</h3>
-          <div class="corevalues-3 corev3">
-            <div class="value value1">
-              <img
-                alt="valuelogo"
-                src="./public/img/community-2188ec4ef052fad53e5cf76f1d23e137.svg"
-                class="valuelogo vlogo"
-              />
-              <h3 class="valuetitle vtitle">Community</h3>
-              <p class="valueparagraph vpragraph">
-                We’re largely dependent on volunteers. That’s what makes us an
-                engaged grassroots community, as our students call it ‘the HYF
-                family’.
-              </p>
-            </div>
-            <div class="value value1">
-              <img
-                alt="valuelogo"
-                src="./public/img/diversity-inclusiveness-446e4facafbbf0674d5ead3d2e03f042.svg"
-                class="valuelogo vlogo"
-              />
-              <h3 class="valuetitle vtitle">Diversity &amp; Inclusiveness</h3>
-              <p class="valueparagraph vpragraph">
-                Our program is adapted to suit people with different
-                backgrounds, often in vulnerable situations. We teach on Sundays
-                to allow everyone to take control of their personal lives during
-                the week.
-              </p>
-            </div>
-            <div class="value value1">
-              <img
-                alt="valuelogo"
-                src="./public/img/commitment-aa0299dfdd887bc65d8e06877a7dce2e.svg"
-                class="valuelogo vlogo"
-              />
-              <h3 class="valuetitle vtitle">Commitment</h3>
-              <p class="valueparagraph vpragraph">
-                Our program is free of charge, although we ask for strong
-                commitment during our 7 month-journey. And you know what? Many
-                alumni stay actively involved!
-              </p>
-            </div>
-            <div class="value value1">
-              <img
-                alt="valuelogo"
-                src="./public/img/open-2c0073e6b1b41d56a5140d3896c765c6.svg"
-                class="valuelogo vlogo"
-              />
-              <h3 class="valuetitle vtitle">Open</h3>
-              <p class="valueparagraph vpragraph">
-                Sharing is caring. Our curriculum is 100% open. We believe in
-                knowledge for the many, not the few.
-              </p>
+      <!--Core Values-->
+      <section class="corevalues cv">
+        <div class="corevalues-1 corev1">
+          <div class="corevalues-2 corev2">
+            <h3 class="corevaluestitle cvtitle">Our Core Values</h3>
+            <div class="corevalues-3 corev3">
+              <div class="value value1">
+                <img
+                  alt="valuelogo"
+                  src="./public/img/community-2188ec4ef052fad53e5cf76f1d23e137.svg"
+                  class="valuelogo vlogo"
+                />
+                <h3 class="valuetitle vtitle">Community</h3>
+                <p class="valueparagraph vpragraph">
+                  We’re largely dependent on volunteers. That’s what makes us an
+                  engaged grassroots community, as our students call it ‘the HYF
+                  family’.
+                </p>
+              </div>
+              <div class="value value1">
+                <img
+                  alt="valuelogo"
+                  src="./public/img/diversity-inclusiveness-446e4facafbbf0674d5ead3d2e03f042.svg"
+                  class="valuelogo vlogo"
+                />
+                <h3 class="valuetitle vtitle">Diversity &amp; Inclusiveness</h3>
+                <p class="valueparagraph vpragraph">
+                  Our program is adapted to suit people with different
+                  backgrounds, often in vulnerable situations. We teach on
+                  Sundays to allow everyone to take control of their personal
+                  lives during the week.
+                </p>
+              </div>
+              <div class="value value1">
+                <img
+                  alt="valuelogo"
+                  src="./public/img/commitment-aa0299dfdd887bc65d8e06877a7dce2e.svg"
+                  class="valuelogo vlogo"
+                />
+                <h3 class="valuetitle vtitle">Commitment</h3>
+                <p class="valueparagraph vpragraph">
+                  Our program is free of charge, although we ask for strong
+                  commitment during our 7 month-journey. And you know what? Many
+                  alumni stay actively involved!
+                </p>
+              </div>
+              <div class="value value1">
+                <img
+                  alt="valuelogo"
+                  src="./public/img/open-2c0073e6b1b41d56a5140d3896c765c6.svg"
+                  class="valuelogo vlogo"
+                />
+                <h3 class="valuetitle vtitle">Open</h3>
+                <p class="valueparagraph vpragraph">
+                  Sharing is caring. Our curriculum is 100% open. We believe in
+                  knowledge for the many, not the few.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Contact us form-->
-    <div class="first-container">
-      <div class="form-container">
-        <p>Contact Us</p>
-        <div class="login">
-          <input type="text" class="input" placeholder="Full Name" />
-          <input type="text" class="input" placeholder="Email Address" />
+      </section>
+      <!--Donation form-->
+      <section class="donation-box">
+        <div class="donation-text">
+          <h1>Support The Developers of Tomorrow</h1>
+          <p>
+            Help refugees build digital and soft skills for a career in web
+            development.We are a non-profit organization. Thanks to your support
+            we can improve and keep our program free of charge for students.
+          </p>
         </div>
-        <div class="subject">
-          <textarea class="area" placeholder="Message"></textarea>
-          <div class="btn">Send</div>
+        <form action="#" method="post">
+          <div class="donation-amnt-container">
+            <label for="donation-amount">Choose your donation amount:</label>
+            <div class="donation-amounts">
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="10"
+              />
+              <label class="donation-amount-label" for="amount-10">$10</label>
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="25"
+              />
+              <label class="donation-amount-label" for="amount-25">$25</label>
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="50"
+              />
+              <label class="donation-amount-label" for="amount-50">$50</label>
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="100"
+              />
+              <label class="donation-amount-label" for="amount-100">$100</label>
+            </div>
+          </div>
+          <div class="donation-field-container">
+            <label for="name">Name:</label>
+            <input type="text" class="donation-field" name="name" />
+            <label for="email">Email:</label>
+            <input type="email" class="donation-field" name="email" />
+            <label for="message">Message:</label>
+            <textarea class="area" name="message"></textarea>
+          </div>
+          <button type="submit" class="donation-button">Donate</button>
+        </form>
+      </section>
+      <!-- Contact us form-->
+      <div class="first-container">
+        <div class="form-container">
+          <p>Contact Us</p>
+          <div class="login">
+            <input type="text" class="input" placeholder="Full Name" />
+            <input type="text" class="input" placeholder="Email Address" />
+          </div>
+          <div class="subject">
+            <textarea class="area" placeholder="Message"></textarea>
+            <div class="btn">Send</div>
+          </div>
         </div>
+        <div class="form-img"><img src="public/img/form.png" alt="form" /></div>
       </div>
-      <div class="form-img"><img src="public/img/form.png" alt="form" /></div>
-    </div>
+    </main>
   </body>
 </html>
