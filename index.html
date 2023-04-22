@@ -176,6 +176,62 @@
           </div>
         </div>
       </section>
+      <!--Donation form-->
+
+      <section class="donation-box">
+        <div class="donation-text">
+          <h1>Support The Developers of Tomorrow</h1>
+          <p>
+            Help refugees build digital and soft skills for a career in web
+            development.We are a non-profit organization. Thanks to your support
+            we can improve and keep our program free of charge for students.
+          </p>
+        </div>
+        <form action="#" method="post">
+          <div class="donation-amnt-container">
+            <label for="donation-amount">Choose your donation amount:</label>
+            <div class="donation-amounts">
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="10"
+              />
+              <label class="donation-amount-label" for="amount-10">$10</label>
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="25"
+              />
+              <label class="donation-amount-label" for="amount-25">$25</label>
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="50"
+              />
+              <label class="donation-amount-label" for="amount-50">$50</label>
+              <input
+                type="radio"
+                class="donation-amount"
+                name="donation-amount"
+                value="100"
+              />
+              <label class="donation-amount-label" for="amount-100">$100</label>
+            </div>
+          </div>
+          <div class="donation-field-container">
+            <label for="name">Name:</label>
+            <input type="text" class="donation-field" name="name" />
+            <label for="email">Email:</label>
+            <input type="email" class="donation-field" name="email" />
+            <label for="message">Message:</label>
+            <textarea class="area" name="message"></textarea>
+          </div>
+          <button type="submit" class="donation-button">Donate</button>
+        </form>
+      </section>
     </main>
   </body>
 </html>
