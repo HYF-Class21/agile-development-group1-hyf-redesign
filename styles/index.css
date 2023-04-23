@@ -164,7 +164,8 @@ h1 {
   margin-top: 1rem;
 }
 
-/* our impact */
+/* our-impact */
+
 .our-impact {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.08) 0 0 53px;
@@ -591,6 +592,10 @@ h2 {
   font-weight: bold;
 }
 
+/* footer-section */
+
+.footer {
+}
 .partners {
   display: flex;
   -webkit-box-pack: center;
