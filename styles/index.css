@@ -708,12 +708,6 @@ a {
   vertical-align: baseline;
 }
 
-body {
-  background-color: #fff;
-  max-width: 100vh;
-  min-height: 100vh;
-}
-
 .partnersarrow {
   display: var(--fa-display, inline-block);
   height: 1em;
