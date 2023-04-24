@@ -925,6 +925,22 @@ h2 {
   font-weight: bold;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h3.footer-header {
+  color: blue;
+  margin: 12px;
+}
+
+.social-media {
+  margin: 13px;
+  letter-spacing: 3px;
+}
+
 .partners {
   display: flex;
   -webkit-box-pack: center;
