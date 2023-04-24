@@ -5,7 +5,8 @@
     "HackYourFuture",
     "HackYourFutureBelgium",
     "Nepo",
-    "wireframe"
+    "wireframe",
+    "Digitalent"
   ],
   "ignorePaths": [
     "node_modules/**",
