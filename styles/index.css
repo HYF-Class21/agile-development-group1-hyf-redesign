@@ -594,6 +594,11 @@ h2 {
 
 /* footer-section */
 
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 .partners {
   display: flex;
   -webkit-box-pack: center;
