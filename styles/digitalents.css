@@ -1,0 +1,105 @@
+/* first section styling */
+
+@import url("./something.css");
+
+@import url("styles/index.css");
+
+.header {
+  height: 17%;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* navbar */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  color: #fff;
+  font-size: 15px;
+  height: 80px;
+  overflow: auto;
+  overflow: hidden;
+}
+
+.logo {
+  height: 80px;
+  width: 130px;
+}
+
+.navlist {
+  list-style-type: none;
+}
+
+.navlist li {
+  display: inline-block;
+  padding: 10px 60px;
+}
+
+.navbar a {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: lightblue;
+}
+
+.btn {
+  padding: 9px 25px;
+  border: none;
+  border-radius: 50px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: lightgray;
+  color: #fff;
+}
+
+/* Intro section */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 20px;
+  position: relative;
+  box-shadow: none;
+  background: none;
+  z-index: 1;
+  flex: 0 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.definition {
+  justify-content: center;
+  box-sizing: border-box;
+  align-items: center;
+  height: 100%;
+}
+
+.definition h1 {
+  font-size: x-large;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: darkblue;
+  text-decoration: solid;
+}
+
+.definition p {
+  font-size: large;
+  text-align: center;
+  background-color: #fff;
+  margin-left: 40%;
+  margin-right: 40%;
+  font-family: sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  vertical-align: baseline;
+  line-height: 1.6;
+}
