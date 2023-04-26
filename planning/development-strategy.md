@@ -1,143 +1,76 @@
-# Backlog
+# Development strategy
 
-​ A collection of user stories you can choose from. Stories inside each priority
-level are not necessarily in order, it's up to your group to decide how they fit
-into your strategy. These are also just suggestion, feel free to change them or
-create your own! ​
+## SET UP
 
-## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#must-haves)Must-Haves
+- [ ] create `index.html`
+- [ ] link `style.css` file to `index.html`
+- [ ] put all the images in `public` file
 
-​
+## Title
 
-> These are necessary for basic usability ​ Homepage
+> As a user I want to see a clear title for the website. There is a good title
+> that user can see in top of the page.
 
-- As a user I want to see a clear title for the website.
+- HTML Put "Hack Your Future" text in `<title>` tag of the `<head>` part.
 
-  - _There is a good title that user can see in top of the page_
+## Website logo
 
-- As a user I want to see a logo for the website
+> As a user I want to see a logo for the website. There is a logo the reflects
+> the website title.
 
-  - _There is a logo the reflects the website title_
+- HTML Use `<img>` tag to insert HYF logo image.
 
-- As a user I want to have a navigation bar to go to different pages of the
-  website.
+- CSS Style the website logo to the top left of the page using flexbox or grid,
+  to be aligned with the navbar.
 
-  - _There is navigation bar with links to all pages in website_
+## Navbar
 
-- As a user I want to have main section explaining what the program is about.
+> As a user I want to have a navigation bar to go to different pages of the
+> website. There is navigation bar with links to all pages in website.
 
-  - _There is a section with extra information button that explains what the
-    program is_
+- HTML Use `<ul>` and `<li>` tag to list out different `<a>` link for the navbar
+  .
 
-- As a user I want to see the impact of this program and its results to see if
-  its successful.
+- CSS Style the link text to color `rgb(127, 127, 127)`. When hover through, the
+  link text should turn black and show thick purple bottom line.
 
-  - _there is a section with some examples of program effects on society_
+## Main info section
 
-- As a user I want to see footer with social media links of the program and
-  contact information. - _There is a footer at end of page with contact
-  information on the program_ ​
-  > The program page
-- As a potential student I want to see a page to introduce the program and to
-  have a button to apply for this program.
-  - _There is a `the program` page with the introduction of the program and a
-    button link to the admission form._
-- As a potential student I want to know what are the admission requirement for
-  this program. - _There is a list of the admission requirements in
-  `the program` page ._
-  > Volunteer page
-- As a potential volunteer, I want to see a page with the information to join as
-  a volunteer.
-  - _There is a `volunteer` page with the introduction of the way to join as
-    volunteer and a link to the application form._
-- As a potential volunteer, I want to know what's the reason I should consider
-  joining HYF as a volunteer. - _There is a list to describe the advantages to
-  become a volunteer at HYF._
-  > Digitalents page
-- As a student or someone who's interested in coding, I want to know what's the
-  digitalents program .
-  - _There is a introduction text to introduce digitalents program on
-    `digitalents` page._
-- As a student or someone who's interested in coding, I want to know what are
-  the different program of digitalents.
-  - _There are several blocks to introduce different program of digitalents on
-    `digitalents` page._
-- As a student or someone who's interested in coding, I want to know how can I
-  apply for digitalents program. - _There is a button link to application form
-  of digitalents program at the bottom of `digitalents` page._
-  > About page
-- As a user, I want to know the core values of HYF.
-  - _There is a banner with all the HYF core values listed `about` page._
-- As a user, I want to know the team members of HYF. - _There is a introduction
-  of HYF core members on `about` page._
-  > FAQ page
-- As a potential student/volunteer/partner, I want to know find the answers of
-  some common questions.\_
-  - _There is a blocks of answers of some common questions about
-    student/volunteer/partner on `about` page._
-- As a potential student/volunteer/partner, I want to be able to search for a
-  certain common question._-\_There is a search bar on `about` page._
-  > Support us page
-- As a potential partner, I want to why should I support HYF and what are the
-  advantages.\_
-  - _There is a introduction text to invite people or companies to be the
-    partners of HYF on the top of `support us` page._
-- As a user, I want to support HYF by donating money._-\_There is a donation
-  form on `support us` page._ ​
+> As a user I want to have main section explaining what the program is about.
+> There is a section with extra information button that explains what the
+> program is.
 
-## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#should-haves)Should-Haves
+- HTML Use `<section>` tag to divide different part of the information . If
+  needed, add a "discover more" button with `<button>` tag below the text part
+  to link to more complete information.
 
-​
+- CSS "OUR PROGRAM" section text should be left-aligned, "OUR IMPACT" section
+  text should be centre-aligned. The background color of the button should turn
+  gray when hover through.
 
-> these will complete the user experience, but are not necessary ​
+## Successful examples/results
 
-- As a user I wan to have a section about the values of the program to see if
-  its accepted and credible.
+> As a user I want to see the impact of this program and its results to see if
+> its successful. There is a section with some examples of program effects on
+> society.
 
-  - _There is a section with the core values of program that reflects its
-    thinking and working atmosphere_
+- HTML Use `<div>` to separate different success stories. Add `<img>` ,`<h4>`
+  and `<p>` to demonstrate each ex-trainee's photo, current job and story.
 
-- As a user I want to see what partners this program have to see if its well
-  supported.
+- CSS The image should be black and white. The name/company is color
+  `rgb(28, 34, 148)` . The job title is color `#4A50BB` . All text are
+  centre-aligned.
 
-  - _There is a section with all the program partners_
+## Footer
 
-- As a user I want to have the ability to send messages to website owner and ask
-  about other topics.
+> As a user I want to see footer with social media links of the program and
+> contact information. There is a footer at end of page with contact information
+> on the program.
 
-  - _There is contact us form for users to send emails to program owners_
+- HTML Use `<form>` to create a contact form. Use `<iframe>` to embed a map with
+  HYF address if possible. Add `<svg>` images for the social media links at the
+  bottom of the footer.
 
-- As a user, I want to know more details about the HYF program.
-
-  - _There are 3 blocks of informations about the HYF program on `the program`
-    page._
-
-- As a potential coach/mentor, I want to know the experience from other
-  coaches/mentors.
-
-  - _There are experiences sharing by other coaches/mentors on `volunteer`
-    page._
-
-- As a user, I want to know the mission, vision and history about HYF.
-
-  - _There are information of the mission, vision and history about HYF on
-    `about` page._
-
-- As a user, I want to know how to support HYF.
-
-  - _There are information about how to support HYF in several different ways on
-    `support` page._
-
-​
-
-## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#could-haves)Could-Haves
-
-​
-
-> would be really cool ... if there's time ​
-
-- As a user I want to see a submit box where I can make a small donation.
-  - _There is a box where users can choose an amount to donate to the program._
-- As a user I want to see an example picture next to the introduction text. -
-  _There are some example pictures next to the introduction text on
-  `the program` and `support us` page._ Collapse
+- CSS The background of the contact form is `rgb(74, 80, 187)`, text color is
+  white. The footer text is color `rgb(28, 34, 148)` and `rgb(45, 48, 55)`,
+  centre-aligned.
