@@ -114,14 +114,14 @@ h1 {
 
 .our-program {
   /* border: 1px solid red; */
-  width: 60%;
   display: flex;
   font-size: 16px;
   padding: 3rem 1.5rem;
 }
 
 .our-program-text,
-.our-program-img {
+.our-program-img,
+.support-us {
   padding: 3rem;
   width: 50%;
 }
@@ -1080,4 +1080,53 @@ h3.footer-header {
   letter-spacing: 3px;
 }
 
+/* support us */
+.support-us-header {
+  height: auto;
+}
 
+.our-support {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.support-ways {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 53px;
+  padding: 40px 50px;
+  margin-bottom: 50px;
+}
+
+.our-program h1 {
+  font-size: 36px;
+  line-height: 120%;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  color: rgb(74, 80, 187);
+  text-align: left;
+  max-width: none;
+}
+
+.our-support h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.our-program p,
+.our-support p {
+  font-family: "Space Mono", monospace;
+  line-height: 160%;
+}
+
+.our-support img {
+  height: 70px;
+  width: 70px;
+}
