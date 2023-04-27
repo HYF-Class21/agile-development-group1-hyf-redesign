@@ -1130,3 +1130,20 @@ h3.footer-header {
   height: 70px;
   width: 70px;
 }
+/* Volunter-page */
+
+/* Join-as-a-volunteer */
+
+.mentors {
+  text-align: center;
+}
+
+p.text {
+  line-height: 160%;
+  font-family: space mono;
+}
+
+h2 {
+  color: blue;
+  text-transform: uppercase;
+}
