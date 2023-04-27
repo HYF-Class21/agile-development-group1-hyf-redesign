@@ -1,6 +1,13 @@
 {
   "language": "en",
-  "words": ["HackYourFutureBelgium", "HackYourFuture", "Nepo"],
+  "words": [
+    "backroundimg",
+    "HackYourFuture",
+    "HackYourFutureBelgium",
+    "Nepo",
+    "wireframe",
+    "Digitalent"
+  ],
   "ignorePaths": [
     "node_modules/**",
     "package.json",
