@@ -1,21 +1,13 @@
 # Backlog
 
-​ ​ A collection of user stories you can choose from. Stories inside each
-priority level are not necessarily in order, it's up to your group to decide how
-they fit into your strategy. These are also just suggestion, feel free to change
-them or <<<<<<< HEAD create your own! ​
+A collection of user stories you can choose from. Stories inside each priority
+level are not necessarily in order, it's up to your group to decide how they fit
+into your strategy. These are also just suggestion, feel free to change them or
+create your own!
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#must-haves)Must-Haves
 
-> # These are necessary for basic usability ​Homepage
->
-> create your own! ​
-
-## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#must-haves)Must-Haves
-
-## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#must-haves)Must-Haves
-
-> These are necessary for basic usability ​Homepage
+> These are necessary for basic usability Homepage
 
 - As a user I want to see a clear title for the website.
 - As a user I want to see a clear title for the website.
@@ -23,13 +15,10 @@ them or <<<<<<< HEAD create your own! ​
   - _There is a good title that user can see in top of the page_
 
 - As a user I want to see a logo for the website.
-- As a user I want to see a logo for the website.
 
   - _There is a logo the reflects the website title._
   - _There is a logo the reflects the website title._
 
-- As a user I want to have a navigation bar to go to different pages of the
-  website.
 - As a user I want to have a navigation bar to go to different pages of the
   website.
 
@@ -40,7 +29,7 @@ them or <<<<<<< HEAD create your own! ​
 - As a user I want to have main section explaining what the program is about.
 
   - _There is a section with extra information button that explains what the
-    program is.._
+    program is._
 
 - As a user I want to see the impact of this program and its results to see if
   its successful.
@@ -48,7 +37,9 @@ them or <<<<<<< HEAD create your own! ​
 - As a user I want to see the impact of this program and its results to see if
   its successful.
 
-  - _there is a section with some examples of program effects on society._
+- As a user I want to see footer with social media links of the program and
+  contact information.
+- _There is a footer at end of page with contact information on the program._
 
 - As a user I want to see footer with social media links of the program and
   contact information.
@@ -70,8 +61,9 @@ them or <<<<<<< HEAD create your own! ​
   - _There is a `volunteer` page with the introduction of the way to join as
     volunteer and a link to the application form._
 - As a potential volunteer, I want to know what's the reason I should consider
-  joining HYF as a volunteer. - _There is a list to describe the advantages to
-  become a volunteer at HYF._
+  joining HYF as a volunteer.
+
+  - _There is a list to describe the advantages to become a volunteer at HYF._
 
   > Digitalents page
 
@@ -119,10 +111,34 @@ them or <<<<<<< HEAD create your own! ​
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#should-haves)Should-Haves
 
-> these will complete the user experience, but are not necessary.
+> # these will complete the user experience, but are not necessary.
+>
+> apply for digitalents program. - _There is a button link to application form
+> of digitalents program at the bottom of `digitalents` page._ About page
 
-- As a user I wan to have a section about the values of the program to see if
-  its accepted and credible.
+- As a user, I want to know the core values of HYF.
+  - _There is a banner with all the HYF core values listed `about` page._
+- As a user, I want to know the team members of HYF. - _There is a introduction
+  of HYF core members on `about` page._
+  > FAQ page
+- As a potential student/volunteer/partner, I want to know find the answers of
+  some common questions.\_
+  - _There is a blocks of answers of some common questions about
+    student/volunteer/partner on `about` page._
+- As a potential student/volunteer/partner, I want to be able to search for
+  acertain common question._-\_There is a search bar on `about` page._
+  > Support us page
+- As a potential partner, I want to why should I support HYF and what are the
+  advantages.\_
+  - _There is a introduction text to invite people or companies to be the
+    partners of HYF on the top of `support us` page._
+- As a user, I want to support HYF by donating money._-\_There is a donation
+  form on `support us` page._
+
+## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#should-haves)Should-Haves
+
+> these will complete the user experience, but are not necessary
+
 - As a user I wan to have a section about the values of the program to see if
   its accepted and credible.
 
@@ -134,8 +150,6 @@ them or <<<<<<< HEAD create your own! ​
 
   - _There is a section with all the program partners_
 
-- As a user I want to have the ability to send messages to website owner and ask
-  about other topics.
 - As a user I want to have the ability to send messages to website owner and ask
   about other topics.
 
@@ -154,8 +168,8 @@ them or <<<<<<< HEAD create your own! ​
 
 - As a user, I want to know the mission, vision and history about HYF.
 
-  - _There are information of the mission, vision and history about HYF
-    on`about` page._
+  - _There are information of the mission, vision and history about HYF on
+    `about` page._
 
 - As a user, I want to know how to support HYF.
 
@@ -164,19 +178,13 @@ them or <<<<<<< HEAD create your own! ​
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#could-haves)Could-Haves
 
-<<<<<<< HEAD
-
-> # would be really cool ... if there's time ​
->
-> would be really cool ... if there's time ​
->
-> > > > > > > ae916f3 (update)
+> would be really cool ... if there's time
 
 - As a user I want to see a submit box where I can make a small donation.
 
-- As a user I want to see a submit box where I can make a small donation.
   - _There is a box where users can choose an amount to donate to the program._
     <<<<<<< HEAD
+
 - As a user I want to see an example picture next to the introduction text.
 
   - _There are some example pictures next to the introduction text on
@@ -185,7 +193,3 @@ them or <<<<<<< HEAD create your own! ​
 - As a user I want to see an example picture next to the introduction text. -
   _There are some example pictures next to the introduction text on
   `the program` and `support us` page._
-  > > > > > > > ae916f3 (update)
-- As a user I want to see an example picture next to the introduction text.
-  - _There are some example pictures next to the introduction text on
-    `the program` and `support us` page._

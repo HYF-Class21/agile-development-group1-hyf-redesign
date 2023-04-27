@@ -103,11 +103,11 @@
 
 - CSS Style the buttons with the properties below:
 
-1.  background-color: rgb(74, 80, 187);
-2.  color: white;
-3.  padding: 10px 20px;
-4.  text-transform: uppercase;
-5.  font-family: "Work Sans", sans-serif;
+  1. background-color: rgb(74, 80, 187);
+  2. color: white;
+  3. padding: 10px 20px;
+  4. text-transform: uppercase;
+  5. font-family: "Work Sans", sans-serif;
 
 > - As a potential volunteer, I want to know what's the reason I should consider
 >   joining HYF as a volunteer. There is a list to describe the advantages to
@@ -165,17 +165,17 @@
 
 `<div>`
 
-1.  box-shadow: rgba(0, 0, 0, 0.1) 5px 4px 8px 5px;
-2.  padding: 20px 40px;
-3.  border-radius: 7px;
+1. box-shadow: rgba(0, 0, 0, 0.1) 5px 4px 8px 5px;
+2. padding: 20px 40px;
+3. border-radius: 7px;
 
 `<img>`
 
-1.  width: 180px;
-2.  height: 180px;
-3.  object-fit: cover;
-4.  border-radius: 100%;
-5.  filter: grayscale(1);
+1. width: 180px;
+2. height: 180px;
+3. object-fit: cover;
+4. border-radius: 100%;
+5. filter: grayscale(1);
 
 ## FAQ
 
@@ -193,10 +193,10 @@
 
 - CSS Use the following properties to style the `<input>`:
 
-1.  flex-grow: 1;
-2.  border: none;
-3.  padding: 12px 10px;
-4.  color: rgb(74, 80, 187);.
+1. flex-grow: 1;
+2. border: none;
+3. padding: 12px 10px;
+4. color: rgb(74, 80, 187);.
 
 ## Support us
 
@@ -216,7 +216,7 @@
 
 - CSS When hover, the button of amount become:
 
-1.  background-color: rgb(28, 34, 148);
-2.  color: white;
+1. background-color: rgb(28, 34, 148);
+2. color: white;
 
 ​
