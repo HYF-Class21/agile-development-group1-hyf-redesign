@@ -1080,4 +1080,20 @@ h3.footer-header {
   letter-spacing: 3px;
 }
 
+/* Volunter-page */
 
+/* Join-as-a-volunteer */
+
+.mentors {
+  text-align: center;
+}
+
+p.text {
+  line-height: 160%;
+  font-family: space mono;
+}
+
+h2 {
+  color: blue;
+  text-transform: uppercase;
+}
