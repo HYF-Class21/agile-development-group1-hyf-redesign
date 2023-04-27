@@ -140,4 +140,4 @@ create your own! ​
   - _There is a box where users can choose an amount to donate to the program._
 - As a user I want to see an example picture next to the introduction text. -
   _There are some example pictures next to the introduction text on
-  `the program` and `support us` page._ 
+  `the program` and `support us` page._
