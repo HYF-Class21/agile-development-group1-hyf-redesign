@@ -7,7 +7,7 @@ create your own!
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#must-haves)Must-Haves
 
-> These are necessary for basic usability Homepage
+> These are necessary for basic usability ​Homepage
 
 - As a user I want to see a clear title for the website.
 - As a user I want to see a clear title for the website.
@@ -15,7 +15,9 @@ create your own!
   - _There is a good title that user can see in top of the page_
 
 - As a user I want to see a logo for the website.
+- As a user I want to see a logo for the website.
 
+  - _There is a logo the reflects the website title._
   - _There is a logo the reflects the website title._
   - _There is a logo the reflects the website title._
 
@@ -24,35 +26,36 @@ create your own!
 
   - _There is navigation bar with links to all pages in website._
   - _There is navigation bar with links to all pages in website._
+  - _There is navigation bar with links to all pages in website._
 
 - As a user I want to have main section explaining what the program is about.
 - As a user I want to have main section explaining what the program is about.
 
   - _There is a section with extra information button that explains what the
-    program is._
+    program is._ program is.\_
 
 - As a user I want to see the impact of this program and its results to see if
   its successful.
 
-- As a user I want to see the impact of this program and its results to see if
-  its successful.
+  - _There is a section with some examples of program effects on society.._
 
 - As a user I want to see footer with social media links of the program and
-  contact information.
-- _There is a footer at end of page with contact information on the program._
+  contact information. - _There is a footer at end of page with contact
+  information on the program_ ​
 
 - As a user I want to see footer with social media links of the program and
-  contact information.
-- _There is a footer at end of page with contact information on the program._ ​
+  contact information. - _There is a footer at end of page with contact
+  information on the program_ ​
+
   > The program page
+
 - As a potential student I want to see a page to introduce the program and to
   have a button to apply for this program.
   - _There is a `the program` page with the introduction of the program and a
     button link to the admission form._
 - As a potential student I want to know what are the admission requirement for
-  this program.
-
-  - _There is a list of the admission requirements in `the program` page ._
+  this program. - _There is a list of the admission requirements in
+  `the program` page ._
 
   > Volunteer page
 
@@ -76,10 +79,8 @@ create your own!
   - _There are several blocks to introduce different program of digitalents on
     `digitalents` page._
 - As a student or someone who's interested in coding, I want to know how can I
-  apply for digitalents program.
-
-  - _There is a button link to application form of digitalents program at the
-    bottom of `digitalents` page._
+  apply for digitalents program. - _There is a button link to application form
+  of digitalents program at the bottom of `digitalents` page._
 
   > About page
 
@@ -118,26 +119,35 @@ create your own!
 
 - As a user, I want to know the core values of HYF.
   - _There is a banner with all the HYF core values listed `about` page._
-- As a user, I want to know the team members of HYF. - _There is a introduction
-  of HYF core members on `about` page._
+- As a user, I want to know the team members of HYF.
+
+  - _There is a introduction of HYF core members on `about` page._
+
   > FAQ page
+
 - As a potential student/volunteer/partner, I want to know find the answers of
-  some common questions.\_
+  some common questions.\_ some common questions.
   - _There is a blocks of answers of some common questions about
     student/volunteer/partner on `about` page._
-- As a potential student/volunteer/partner, I want to be able to search for
-  acertain common question._-\_There is a search bar on `about` page._
+- As a potential student/volunteer/partner, I want to be able to search for a
+  certain common question. - _There is a search bar on `about` page._
+
   > Support us page
+
 - As a potential partner, I want to why should I support HYF and what are the
-  advantages.\_
+  advantages.
   - _There is a introduction text to invite people or companies to be the
     partners of HYF on the top of `support us` page._
-- As a user, I want to support HYF by donating money._-\_There is a donation
-  form on `support us` page._
+- As a user, I want to support HYF by donating money.
+  - There is a donation form on `support us` page.
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#should-haves)Should-Haves
 
-> these will complete the user experience, but are not necessary
+## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#should-haves)Should-Haves
+
+## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#should-haves)Should-Haves
+
+> these will complete the user experience, but are not necessary.
 
 - As a user I wan to have a section about the values of the program to see if
   its accepted and credible.
@@ -168,8 +178,8 @@ create your own!
 
 - As a user, I want to know the mission, vision and history about HYF.
 
-  - _There are information of the mission, vision and history about HYF on
-    `about` page._
+  - _There are information of the mission, vision and history about HYF
+    on`about` page._
 
 - As a user, I want to know how to support HYF.
 
@@ -178,7 +188,7 @@ create your own!
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#could-haves)Could-Haves
 
-> would be really cool ... if there's time
+> would be really cool ... if there's time ​
 
 - As a user I want to see a submit box where I can make a small donation.
 
@@ -190,6 +200,6 @@ create your own!
   - _There are some example pictures next to the introduction text on
     `the program` and `support us` page._ =======
 
-- As a user I want to see an example picture next to the introduction text. -
-  _There are some example pictures next to the introduction text on
-  `the program` and `support us` page._
+- As a user I want to see an example picture next to the introduction text.
+  - _There are some example pictures next to the introduction text on
+    `the program` and `support us` page._
