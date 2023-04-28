@@ -1,3 +1,4 @@
+
 # Backlog
 
 A collection of user stories you can choose from. Stories inside each priority
@@ -181,3 +182,4 @@ create your own!
 - As a user I want to see an example picture next to the introduction text. -
   _There are some example pictures next to the introduction text on
   `the program` and `support us` page._
+
