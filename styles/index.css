@@ -1,5 +1,33 @@
 @import url("./something.css");
 
+/* setting */
+
+:root {
+  --main-color: rgb(28, 34, 148);
+  --secondary-color: rgb(74, 80, 187);
+}
+
+* {
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  margin: 0%;
+  overflow: auto;
+  padding: 0%;
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--main-color);
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
 /* header */
 .header {
   height: 100%;
@@ -134,13 +162,13 @@
   align-items: center;
   width: 100%;
   max-width: 1280px;
-  padding: 10px 0px;
+  padding: 10px;
   margin: auto;
 }
 
 .container2 {
   display: flex;
-  margin: 60px 0px 30px;
+  margin: 60px 30px;
   flex-direction: column;
   -webkit-box-align: center;
   align-items: center;
@@ -163,34 +191,6 @@
   max-width: none;
   font-size: 54px;
   display: block;
-}
-
-/* setting */
-
-:root {
-  --main-color: rgb(28, 34, 148);
-  --secondary-color: rgb(74, 80, 187);
-}
-
-* {
-  font-family: "Space Mono", monospace;
-}
-
-body {
-  margin: 0%;
-  overflow: auto;
-  padding: 0%;
-}
-
-h1 {
-  font-family: "Work Sans", sans-serif;
-  font-weight: 700;
-  font-size: 20px;
-  color: var(--main-color);
-}
-
-.capital {
-  text-transform: uppercase;
 }
 
 .our-program {
