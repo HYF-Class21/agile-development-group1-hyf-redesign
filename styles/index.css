@@ -1392,7 +1392,7 @@ p.text {
   font-family: space mono;
 }
 
-h2 {
+.mentors h2 {
   color: blue;
   text-transform: uppercase;
 }
