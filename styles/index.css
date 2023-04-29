@@ -1158,6 +1158,22 @@ h2 {
   font-weight: bold;
 }
 
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+h3.footer-header {
+  color: blue;
+  margin: 12px;
+}
+
+.social-media {
+  margin: 13px;
+  letter-spacing: 3px;
+}
+
 .partners {
   display: flex;
   -webkit-box-pack: center;
@@ -1295,7 +1311,6 @@ svg:not(:host).partnersarrow {
 
 /* footer section */
 
-/* footer-section */
 
 .footer {
   display: flex;
@@ -1312,6 +1327,7 @@ h3.footer-header {
   margin: 13px;
   letter-spacing: 3px;
 }
+
 
 /* support us */
 .support-us-header {
@@ -1364,7 +1380,6 @@ h3.footer-header {
   width: 70px;
 }
 
-/* Volunter-page */
 
 /* Join-as-a-volunteer */
 

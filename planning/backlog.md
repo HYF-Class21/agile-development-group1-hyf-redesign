@@ -9,6 +9,7 @@ create your own!
 
 > These are necessary for basic usability Homepage
 
+
 - As a user I want to see a clear title for the website.
 
   - _There is a good title that user can see in top of the page_
@@ -29,6 +30,7 @@ create your own!
 
 - As a user I want to see the impact of this program and its results to see if
   its successful.
+
 
   - _There is a section with some examples of program effects on society._
 
@@ -55,7 +57,7 @@ create your own!
     volunteer and a link to the application form._
 - As a potential volunteer, I want to know what's the reason I should consider
   joining HYF as a volunteer.
-
+  
   - _There is a list to describe the advantages to become a volunteer at HYF._
 
   > Digitalents page
@@ -106,6 +108,7 @@ create your own!
 
 > these will complete the user experience, but are not necessary.
 
+
 - As a user, I want to know how to apply for digitalents program.
   - \_There is a button link to application form of digitalents program at the
     bottom of `digitalents` page.
@@ -132,6 +135,7 @@ create your own!
   form on `support us` page._
 
 > these will complete the user experience, but are not necessary
+
 
 - As a user I wan to have a section about the values of the program to see if
   its accepted and credible.
@@ -162,6 +166,7 @@ create your own!
 
 - As a user, I want to know the mission, vision and history about HYF.
 
+
   - _There are information of the mission, vision and history about HYF on
     `about` page._
 
@@ -172,6 +177,7 @@ create your own!
 
 ## [](https://github.com/HYF-Class21/agile-development-group1-hyf-redesign/blob/main/planning/backlog.md#could-haves)Could-Haves
 
+
 > would be really cool ... if there's time
 
 - As a user I want to see a submit box where I can make a small donation.
@@ -181,3 +187,4 @@ create your own!
 - As a user I want to see an example picture next to the introduction text. -
   _There are some example pictures next to the introduction text on
   `the program` and `support us` page._
+

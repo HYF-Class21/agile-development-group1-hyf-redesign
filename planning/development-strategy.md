@@ -74,6 +74,7 @@
 - CSS The background of the contact form is `rgb(74, 80, 187)`, text color is
   white. The footer text is color `rgb(28, 34, 148)` and `rgb(45, 48, 55)`,
   centre-aligned.
+  
 
 ## The program
 
@@ -220,3 +221,4 @@
 2. color: white;
 
 ​
+
