@@ -27,7 +27,7 @@
         <img src="public/img/logo.png" alt="logo" class="logo" />
 
         <ul class="navlist">
-          <li><a href="">The program</a></li>
+          <li><a href="pages/program.html">The program</a></li>
           <li><a href="">Volunteer</a></li>
           <li><a href="pages/digitalents.html">Digitalent</a></li>
           <li><a href="">About</a></li>
@@ -42,10 +42,12 @@
     <!-- main picture-->
     <section class="first-section">
       <div class="container">
-        <h1 class="top-text">
-          Hack your Future <br />
-          Where talents meets passion
-        </h1>
+        <div class="container2">
+          <h1 class="top-text">
+            Hack your Future <br />
+            Where talents meets passion
+          </h1>
+        </div>
       </div>
     </section>
     <main>
@@ -421,58 +423,102 @@
 
       <!--Donation form-->
       <section class="donation-box">
-        <div class="donation-text">
-          <h1>Support The Developers of Tomorrow</h1>
-          <p>
-            Help refugees build digital and soft skills for a career in web
-            development.We are a non-profit organization. Thanks to your support
-            we can improve and keep our program free of charge for students.
-          </p>
-        </div>
-        <form action="#" method="post">
-          <div class="donation-amnt-container">
-            <label for="donation-amount">Choose your donation amount:</label>
-            <div class="donation-amounts">
-              <input
-                type="radio"
-                class="donation-amount"
-                name="donation-amount"
-                value="10"
-              />
-              <label class="donation-amount-label" for="amount-10">$10</label>
-              <input
-                type="radio"
-                class="donation-amount"
-                name="donation-amount"
-                value="25"
-              />
-              <label class="donation-amount-label" for="amount-25">$25</label>
-              <input
-                type="radio"
-                class="donation-amount"
-                name="donation-amount"
-                value="50"
-              />
-              <label class="donation-amount-label" for="amount-50">$50</label>
-              <input
-                type="radio"
-                class="donation-amount"
-                name="donation-amount"
-                value="100"
-              />
-              <label class="donation-amount-label" for="amount-100">$100</label>
+        <div class="donation-container">
+          <div class="donation-right">
+            <div class="donation-text">
+              <div class="text-box">
+                <h1>Support The Developers of Tomorrow</h1>
+                <p class="donation-p">
+                  Help refugees build digital and soft skills for a career in
+                  web development.We are a non-profit organization. Thanks to
+                  your support we can improve and keep our program free of
+                  charge for students.
+                </p>
+              </div>
             </div>
+            <form action="#" method="post">
+              <div class="options">
+                <label class="choice">
+                  <input
+                    type="radio"
+                    name="support"
+                    id="once"
+                    class="option-box"
+                /></label>
+                <p class="option-text">One time</p>
+
+                <label class="choice">
+                  <input
+                    type="radio"
+                    name="support"
+                    id="monthly"
+                    class="option-box"
+                  />
+                </label>
+                <p class="option-text">Monthly</p>
+              </div>
+              <div class="donation-left">
+                <div class="donation-amnt-container">
+                  <label for="amount-options" class="amount-choice"
+                    >Select your amount</label
+                  >
+                  <ul id="amount-options" class="list-choice">
+                    <li tabindex="0" class="amounts1">€10</li>
+                    <li tabindex="0" class="amounts">€25</li>
+                    <li tabindex="0" class="amounts">€50</li>
+                    <li tabindex="0" class="amounts">€100</li>
+                    <li tabindex="0" class="amounts">Full scholarship</li>
+                  </ul>
+
+                  <label for="amount" class="your-amount">Amount</label>
+                  <input type="number" class="choice-amount" value="10" />
+                  <label for="message" class="your-amount">Message</label>
+                  <input type="text" class="choice-amount" value="" />
+                </div>
+                <!-- <div class="donation-amounts">
+                    <input
+                      type="radio"
+                      class="donation-amount"
+                      name="donation-amount"
+                      value="10"
+                    />
+                    <label class="donation-amount-label" for="amount-10"
+                      >$10</label
+                    >
+                    <input
+                      type="radio"
+                      class="donation-amount"
+                      name="donation-amount"
+                      value="25"
+                    />
+                    <label class="donation-amount-label" for="amount-25"
+                      >$25</label
+                    >
+                    <input
+                      type="radio"
+                      class="donation-amount"
+                      name="donation-amount"
+                      value="50"
+                    />
+                    <label class="donation-amount-label" for="amount-50"
+                      >$50</label
+                    >
+                    <input
+                      type="radio"
+                      class="donation-amount"
+                      name="donation-amount"
+                      value="100"
+                    />
+                    <label class="donation-amount-label" for="amount-100"
+                      >$100</label
+                    >
+                  </div>
+                </div> -->
+                <button type="submit" class="donation-button">Donate</button>
+              </div>
+            </form>
           </div>
-          <div class="donation-field-container">
-            <label for="name">Name:</label>
-            <input type="text" class="donation-field" name="name" />
-            <label for="email">Email:</label>
-            <input type="email" class="donation-field" name="email" />
-            <label for="message">Message:</label>
-            <textarea class="area" name="message"></textarea>
-          </div>
-          <button type="submit" class="donation-button">Donate</button>
-        </form>
+        </div>
       </section>
       <!-- Contact us form-->
       <div class="first-container">
